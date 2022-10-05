@@ -8,7 +8,6 @@
 
 ## Introduction
 
-In Project 1, we wrote three classes to simulate the evolution of [elementary cellular automata](https://en.wikipedia.org/wiki/Elementary_cellular_automaton).
 The goal of this project is to simulate a second type of one-dimensional, two-state cellular automaton while writing a minimal amount of new code and avoiding duplicate code.
 In the process, we will modify our Project 1 classes to make it possible to simulate even more types of cellular automata in the future without changing our Project 2 code.
 
@@ -19,7 +18,6 @@ To view a larger version, open the file [uml.pdf](./uml.pdf) in a PDF reader.
 
 ![UML diagram](./uml.svg)
 
-As in Project 1, Automaton uses an ArrayList of Generations and a Rule to simulate a one-dimensional (1D), two-state cellular automaton (CA).
 However, Automaton and Rule are now abstract and have the following abstract methods:
 
 * `createRule(int ruleNum)`
